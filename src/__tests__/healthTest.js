@@ -1,4 +1,4 @@
-import healthStatus from "../health";
+import healthStatus from "../health.js";
 
 test.each([
   ["healthy", { name: "Маг", health: 90 }],

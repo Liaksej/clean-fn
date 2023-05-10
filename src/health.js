@@ -8,3 +8,5 @@ export default function healthStatus(personObject) {
     return "critical";
   }
 }
+
+console.log(healthStatus({ name: "Маг", health: 90 }));
